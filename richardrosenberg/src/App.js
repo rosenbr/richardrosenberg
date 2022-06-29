@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/Header/Header';
+import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
@@ -8,8 +8,6 @@ import NoodsScreenshot from './components/pics/Noods_Screenshot.jpg';
 import PachyScreenshot from './components/pics/Pachy_Screenshot.png';
 import CalcScreenshot from './components/pics/Calculator_Screenshot.png';
 import WayScreenshot from './components/pics/Wayfarer_Screenshot.jpg';
-// import ProfilePic from './components/pics/PP.jpg';
-// NOTE import for profile pic, not sure where to put it tho
 
 function App() {
   
@@ -42,8 +40,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Lets gooooooooooo</h1>
-      <Header></Header>
+      <h1>Lets fuggin gooooooooooo</h1>
+      <NavBar></NavBar>
       <About></About>
       <Skills></Skills>
       {/* <Projects></Projects> */}

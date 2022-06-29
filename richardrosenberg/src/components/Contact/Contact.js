@@ -13,7 +13,7 @@ const Contact = () => {
                     <label>Your message:
                         <textarea class="contact__message" name="message"></textarea>
                     </label>
-                    <button type="submit" class="contact__button">
+                    <button type="submit" class="contact__button">Send button here
                         <i class="far fa-envelope fa-2x contact__button"></i>
                     </button>
                 </form>
