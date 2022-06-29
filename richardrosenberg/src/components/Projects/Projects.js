@@ -1,9 +1,13 @@
 import './Projects.css';
 
-const Projects = () => {
+const Projects = (props) => {
 
     return (
-        <h1>Projects go here. Use .map() to display all.</h1>
+        <div>
+            <h1>{props.projects.name}</h1>
+            <a href ={props.projects.repo}>GitHub logo here</a>
+            <p>{props.projects.description}</p>
+        </div>
     )
 }
 

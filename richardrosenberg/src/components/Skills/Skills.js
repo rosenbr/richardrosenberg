@@ -3,7 +3,16 @@ import './Skills.css';
 const Skills = () => {
 
     return (
-        <h1>Skills go here</h1>
+        <div class="about__skills">
+            <h3 class="about__header" >Skills</h3>
+            <div class="about__icons">
+                {/* <i class="fab fa-js-square fa-5x"></i> */}
+                {/* <i class="fab fa-node-js fa-5x"></i> */}
+                {/* <i class="fab fa-html5 fa-5x"></i> */}
+                {/* <i class="fab fa-css3-alt fa-5x"></i> */}
+                {/* <i class="fab fa-python fa-5x"></i> */}
+            </div>
+        </div>
     )
 }
 export default Skills;
