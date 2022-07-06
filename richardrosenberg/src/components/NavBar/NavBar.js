@@ -11,11 +11,11 @@ const NavBar = ({sticky}) => {
             </div>
             <ul>
                 {/* Links */}
-                <li>Home/Top</li>
-                <li>About</li>
+                <li><a href="#top">Back to Top</a></li>
+                <li><a href="about">About</a></li>
                 <li>Projects</li>
-                <li>Skills</li>
-                <li>Contact</li>
+                <li><a href="skills">Skills</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     )

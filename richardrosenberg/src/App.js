@@ -43,6 +43,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* <a name="top"></a> */}
       {/* <h1>Lets fuggin gooooooooooo</h1> */}
       <NavBar />
       {/* <Welcome element={element} /> */}
