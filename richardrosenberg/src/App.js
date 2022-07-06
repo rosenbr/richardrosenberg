@@ -8,9 +8,12 @@ import NoodsScreenshot from './components/pics/Noods_Screenshot.jpg';
 import PachyScreenshot from './components/pics/Pachy_Screenshot.png';
 import CalcScreenshot from './components/pics/Calculator_Screenshot.png';
 import WayScreenshot from './components/pics/Wayfarer_Screenshot.jpg';
+// import Welcome from './components/Welcome/Welcome';
+// import useSticky from './hooks/useSticky';
 
 function App() {
   
+  // const {isSticky, element} = useSticky()
   let projects = [
     {
         name: 'Noods',
@@ -40,13 +43,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Lets fuggin gooooooooooo</h1>
-      <NavBar></NavBar>
-      <About></About>
-      <Skills></Skills>
+      {/* <h1>Lets fuggin gooooooooooo</h1> */}
+      <NavBar />
+      {/* <Welcome element={element} /> */}
+      <About />
       {/* <Projects></Projects> */}
       {projects.map((projects) => (<Projects projects={projects} />))}
-      <Contact></Contact>
+      <Skills />
+      <Contact />
     </div>
   );
 }
