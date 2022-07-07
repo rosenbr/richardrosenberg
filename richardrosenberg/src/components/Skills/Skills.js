@@ -4,6 +4,7 @@ const Skills = () => {
 
     return (
         <div class="about__skills">
+            <a id="skills__link">
             <h3 class="about__header" >Skills</h3>
             <div class="about__icons">
                 <h3>Icons for JS, React, HTML, CSS, Python?, anything else?</h3>
@@ -13,6 +14,7 @@ const Skills = () => {
                 {/* <i class="fab fa-css3-alt fa-5x"></i> */}
                 {/* <i class="fab fa-python fa-5x"></i> */}
             </div>
+            </a>
         </div>
     )
 }

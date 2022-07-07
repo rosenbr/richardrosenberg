@@ -5,6 +5,7 @@ const About = () => {
 
     return(
         <div class="info__about">
+            <a id="about__link">
             <h2 class="info__header">Richard Rosenberg</h2>
             <img src={ProfilePic} alt="Richard Rosenberg"></img>
             <h3 class="info__header">About Me</h3>
@@ -19,6 +20,7 @@ const About = () => {
                     {/* <i class="fab fa-github-square fa-5x" id="fa-github-square__info"></i> */}
                 </a>
             </div>
+            </a>
         </div>
     )
 }

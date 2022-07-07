@@ -4,6 +4,7 @@ const Contact = () => {
 
     return (
         <div class="contact">
+            <a id="contact__link">
             <h3 class="contact__header">Shoot Me An Email!</h3>
             <div class="contact__email">
                 <form action="https://formspree.io/f/xvodwowk" method="POST">
@@ -18,6 +19,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
+            </a>
         </div>
     )
 }
