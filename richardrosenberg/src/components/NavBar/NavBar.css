@@ -1,8 +1,14 @@
 nav {
     position: sticky;
     top: 0;
+    background-color: burlywood;
 }
 
 ul {
     list-style-type: none;
+}
+
+.navbar__burger.show:hover {
+    cursor: pointer;
+    display: block;
 }
