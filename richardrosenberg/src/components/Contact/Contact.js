@@ -1,4 +1,5 @@
 import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = () => {
 
@@ -15,7 +16,7 @@ const Contact = () => {
                         <textarea class="contact__message" name="message"></textarea>
                     </label>
                     <button type="submit" class="contact__button">Send button here
-                        <i class="far fa-envelope fa-2x contact__button"></i>
+                        <FontAwesomeIcon icon="fa-solid fa-envelope" />
                     </button>
                 </form>
             </div>

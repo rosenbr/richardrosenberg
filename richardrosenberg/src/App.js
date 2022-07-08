@@ -10,14 +10,13 @@ import CalcScreenshot from './components/pics/Calculator_Screenshot.png';
 import WayScreenshot from './components/pics/Wayfarer_Screenshot.jpg';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub, faJsSquare, faHtml5, faCss3, faReact, faPython, faNode } from '@fortawesome/free-brands-svg-icons';
+import { faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faLinkedin, faGithub, faBars)
+library.add(fab, faLinkedin, faGithub, faBars, faJsSquare, faHtml5, faCss3, faReact, faPython, faNode, faEnvelope)
 
 function App() {
   
-  // const {isSticky, element} = useSticky()
   let projects = [
     {
         name: 'Noods',
@@ -47,12 +46,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <a name="top"></a> */}
-      {/* <h1>Lets fuggin gooooooooooo</h1> */}
       <NavBar />
-      {/* <Welcome element={element} /> */}
       <About />
-      {/* <Projects></Projects> */}
       {projects.map((projects) => (<Projects projects={projects} />))}
       <Skills />
       <Contact />

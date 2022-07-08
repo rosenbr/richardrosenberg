@@ -1,4 +1,6 @@
 import './Skills.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Skills = () => {
 
@@ -7,12 +9,13 @@ const Skills = () => {
             <a id="skills__link">
             <h3 class="about__header" >Skills</h3>
             <div class="about__icons">
-                <h3>Icons for JS, React, HTML, CSS, Python?, anything else?</h3>
-                {/* <i class="fab fa-js-square fa-5x"></i> */}
-                {/* <i class="fab fa-node-js fa-5x"></i> */}
-                {/* <i class="fab fa-html5 fa-5x"></i> */}
-                {/* <i class="fab fa-css3-alt fa-5x"></i> */}
-                {/* <i class="fab fa-python fa-5x"></i> */}
+                <FontAwesomeIcon icon="fa-brands fa-js-square" />
+                <FontAwesomeIcon icon="fa-brands fa-html5" />
+                <FontAwesomeIcon icon="fa-brands fa-css3" />
+                <FontAwesomeIcon icon="fa-brands fa-react" />
+                <FontAwesomeIcon icon="fa-brands fa-python" />
+                <FontAwesomeIcon icon="fa-brands fa-node" />
+                <FontAwesomeIcon icon="fa-brands fa-github-square" />
             </div>
             </a>
         </div>
