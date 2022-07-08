@@ -11,8 +11,9 @@ import WayScreenshot from './components/pics/Wayfarer_Screenshot.jpg';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faLinkedin, faGithub)
+library.add(fab, faLinkedin, faGithub, faBars)
 
 function App() {
   
