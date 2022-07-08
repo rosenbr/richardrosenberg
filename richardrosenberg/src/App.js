@@ -8,8 +8,11 @@ import NoodsScreenshot from './components/pics/Noods_Screenshot.jpg';
 import PachyScreenshot from './components/pics/Pachy_Screenshot.png';
 import CalcScreenshot from './components/pics/Calculator_Screenshot.png';
 import WayScreenshot from './components/pics/Wayfarer_Screenshot.jpg';
-// import Welcome from './components/Welcome/Welcome';
-// import useSticky from './hooks/useSticky';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fab, faLinkedin, faGithub)
 
 function App() {
   
