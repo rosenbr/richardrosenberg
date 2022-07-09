@@ -15,14 +15,13 @@ const NavBar = () => {
 
     return (
         <nav>
-            <div className='navbar__burger'>
-                <FontAwesomeIcon 
-                    icon="fa-solid fa-bars"
-                    renderMenuOnMount={true}
-                    show={show}
-                    onMouseEnter={showDropdown} 
-                    onMouseLeave={hideDropdown}
-                    >
+            <div className='navbar__burger'
+                renderMenuOnMount={true}
+                show={show}
+                onMouseEnter={showDropdown} 
+                onMouseLeave={hideDropdown}
+            >
+                <FontAwesomeIcon icon="fa-solid fa-bars">
                         {show && <Dropdown />}
                         {/* <Dropdown /> */}
                 </FontAwesomeIcon>

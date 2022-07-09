@@ -1,0 +1,23 @@
+/* .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.about__pic {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.about__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about__words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
