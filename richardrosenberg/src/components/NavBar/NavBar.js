@@ -1,30 +1,23 @@
 import './NavBar.css';
 import Dropdown from '../Dropdown/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { useState } from 'react';
+import { useState } from 'react';
 
 const NavBar = () => {
-// // TODO make navbar the hamburger, when clicked displays all the below
-//     const [show, setShow] = useState(false);
-//     const showDropdown = (e) => {
-//         setShow(!show);
-//     }
-//     const hideDropdown = (e) => {
-//         setShow(false);
-//     }
+    const [menu, setMenu] = useState(false);
 
     return (
         <nav>
-            <div className='navbar__burger'
-                // renderMenuOnMount={true}
-                // show={show}
-                // onMouseEnter={showDropdown} 
-                // onMouseLeave={hideDropdown}
-            >
-                <FontAwesomeIcon icon="fa-solid fa-bars">
-                        {/* {show && <Dropdown />} */}
+            <div className='navbar__burger'>
+                <FontAwesomeIcon icon="fa-solid fa-bars" 
+                    onMouseOver={() => setMenu(true)}
+                    onMouseLeave={() => setMenu(false)}>
                 </FontAwesomeIcon>
-                        <Dropdown />
+                    {menu && (
+                        <div>
+                            <Dropdown/>
+                        </div>
+                    )}
             </div>
         </nav>
     )
