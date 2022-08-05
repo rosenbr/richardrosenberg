@@ -2,6 +2,9 @@ nav {
     position: sticky;
     top: 0;
     background-color: burlywood;
+    width: 8%;
+    border-radius: 5px;
+    margin: 15px;
 }
 
 ul {
@@ -13,18 +16,15 @@ ul {
     display: block;
 }
 
-.dropdown__menu {
-    width: 10rem;
-    position: absolute;
-    text-align: start;
-    list-style: none;
-    top: 67px;
+.navbar__menu {
+    background-color: blue;
+    
 }
 
-.dropdown__menu.clicked {
-    display: none;
-}
+/* .navbar__icon {
+        hamburger icon in navbar
+} */
 
-.dropdown {
-    background-color: blueviolet;
-}
+/* .navbar__listItem {
+    navbar list items
+} */
