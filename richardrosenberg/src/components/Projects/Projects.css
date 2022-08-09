@@ -15,6 +15,14 @@
     max-height: 80%;
 }
 
+.projects__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
 .projects__pic {
     max-width: 40%;
     border-radius: 5px;

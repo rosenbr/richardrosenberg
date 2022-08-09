@@ -18,7 +18,7 @@ const NavBar = () => {
                                 <li className='navbar__listItem'><a href="#about__link">About</a></li>
                                 <li className='navbar__listItem'><a href="#projects__link">Projects</a></li>
                                 <li className='navbar__listItem'><a href="#skills__link">Skills</a></li>
-                                <li className='navbar__listItem'><a href="#contact__link">Contact</a></li>
+                                {/* <li className='navbar__listItem'><a href="#contact__link">Contact</a></li> */}
                                 <li className='navbar__listItem'>
                                     <a href="https://github.com/rosenbr">
                                         <FontAwesomeIcon icon="fa-brands fa-github-square" />

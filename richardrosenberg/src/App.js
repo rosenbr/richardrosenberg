@@ -3,7 +3,7 @@ import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact';
+// import Contact from './components/Contact/Contact';
 import NoodsScreenshot from './components/pics/Noods_Screenshot.jpg';
 import PachyScreenshot from './components/pics/Pachy_Screenshot.png';
 import CalcScreenshot from './components/pics/Calculator_Screenshot.png';
@@ -48,9 +48,10 @@ function App() {
     <div className="App">
       <NavBar />
       <About />
+      <h2 className='projects__name'>Projects</h2>
       {projects.map((projects) => (<Projects projects={projects} />))}
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

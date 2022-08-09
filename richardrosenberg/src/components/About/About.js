@@ -27,7 +27,7 @@ const About = () => {
                 </div>
             </div>
             <div className='about__words'>
-                <h3 className="about__header">About Me</h3>
+                <h2 className="about__header about__title">About Me</h2>
                 <p className="about__p1">Hello! I'm Richard, a software engineer with a background in customer service. After fulfilling a long-time goal of building my own PC, I wanted to learn more about the software side of tech, so I joined General Assembly's Software Engineering Immersive. After 12 weeks of building my skills as a full-stack developer, I am eager to join a team of talented people where I can continue to build my skills and knowledge!</p>
                 <p>Feel free to add me on LinkedIn!</p>
             </div>
