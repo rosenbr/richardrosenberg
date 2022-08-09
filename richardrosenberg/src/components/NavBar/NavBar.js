@@ -1,5 +1,4 @@
 import './NavBar.css';
-// import Dropdown from '../Dropdown/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 
