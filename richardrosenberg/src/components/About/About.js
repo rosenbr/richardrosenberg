@@ -6,11 +6,15 @@ const About = () => {
 
     return(
         <div className="about">
-            <a id="about__link">
+            <a id="about__link" href>
             <div className='about__top'>
                 <div className='about__me'>
-                    <h2 className="about__header">Richard Rosenberg</h2>
                     <img src={ProfilePic} alt="Richard Rosenberg" className='about__pic'></img>
+                </div>
+                <div className="about__header">
+                    <h2>Richard Rosenberg</h2>
+                    <h4>Software Engineer</h4>
+                    <h4>Cat Shirt Aficionado</h4>
                 </div>
                 <div className="about__links">
                     <a href="https://www.linkedin.com/in/richardrosenberg88/">
@@ -24,8 +28,8 @@ const About = () => {
             </div>
             <div className='about__words'>
                 <h3 className="about__header">About Me</h3>
-                <p className="about__p1">After working in the restaurant industry for over 10 years, I decided it was time for a change. I took the plunge into the world of tech head first by joining General Assembly and starting the Software Engineering Immersive. After 12 long weeks of sleepless nights, insane stress, and thoughts of quiting and returning to bartending, I made it through! It was by far one of the most challenge experiences of my life, that was only made more difficult as I had no background in any tech aside from using Point Of Sale terminals while bartending. I didn't even have a working laptop/desktop for those 10 years!</p>
-                <p className="about__p2">Being able to adapt to new experiences and situations was immensely helpful on my journey to not only becoming a dev, but on the journey of life as well. When the pandemic hit, I took it as an opportunity to learn something new and adapt to the changing world.</p>
+                <p className="about__p1">Hello! I'm Richard, a software engineer with a background in customer service. After fulfilling a long-time goal of building my own PC, I wanted to learn more about the software side of tech, so I joined General Assembly's Software Engineering Immersive. After 12 weeks of building my skills as a full-stack developer, I am eager to join a team of talented people where I can continue to build my skills and knowledge!</p>
+                <p>Feel free to add me on LinkedIn!</p>
             </div>
             </a>
         </div>
