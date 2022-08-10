@@ -21,12 +21,12 @@ const NavBar = () => {
                                 {/* <li className='navbar__listItem'><a href="#contact__link">Contact</a></li> */}
                                 <li className='navbar__listItem'>
                                     <a href="https://github.com/rosenbr">
-                                        <FontAwesomeIcon icon="fa-brands fa-github-square" />
+                                    <FontAwesomeIcon icon="fa-brands fa-github-square" size='3x'/>
                                     </a>
                                 </li>
                                 <li className='navbar__listItem'>
                                     <a href="https://www.linkedin.com/in/richardrosenberg88/">
-                                        <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+                                        <FontAwesomeIcon icon="fa-brands fa-linkedin" size='3x'/>
                                     </a>
                                 </li>
                             </ul>
