@@ -44,3 +44,7 @@ ul {
     padding: 5px;
     width: 10%;
 }
+
+a:link {
+    text-decoration: none;
+}

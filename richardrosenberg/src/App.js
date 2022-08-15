@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <NavBar />
       <About />
-      <h2 className='projects__name'>Projects</h2>
+      <h2 className='projects__name' id='projects__name'>Projects</h2>
       {projects.map((projects) => (<Projects projects={projects} />))}
       <Skills />
       {/* <Contact /> */}

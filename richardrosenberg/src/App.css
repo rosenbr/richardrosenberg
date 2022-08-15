@@ -3,3 +3,7 @@
 .projects__name {
     font-family: 'Bebas Neue', cursive;
 }
+
+#projects__name {
+    font-size: xxx-large;
+}
