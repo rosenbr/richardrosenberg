@@ -1,4 +1,5 @@
-/* div with everything */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .skills {
     display: flex;
     flex-direction: column;
@@ -8,20 +9,19 @@
     margin-right: 20%;
 }
 
-/* just the h tag */
 .skills__header {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: xx-large;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
 }
 
-/* individual icon */
 .skills__icon {
     padding: 5%;
 }
 
-/* icon div */
 .skills__icons {
     display: flex;
     flex-direction: row;
@@ -37,6 +37,7 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .skills__html {
@@ -45,6 +46,7 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .skills__css {
@@ -53,6 +55,7 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .skills__react {
@@ -61,6 +64,7 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .skills__python {
@@ -69,6 +73,7 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .skills__node {
@@ -77,6 +82,7 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .skills__github {
@@ -85,4 +91,5 @@
     justify-content: center;
     align-items: center;
     padding: 3%;
+    font-family: 'Bebas Neue', cursive;
 }

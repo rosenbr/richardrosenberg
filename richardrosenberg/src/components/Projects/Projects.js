@@ -10,10 +10,10 @@ const Projects = (props) => {
                     <img src={props.projects.image} alt="Project Screenshot" className='projects__pic'></img>
                     <div className='projects__words'>
                         <div className='projects__wordsTop'>
-                            <h1 className='projects__info'>{props.projects.name}</h1>
+                            <h1 className='projects__info' id='project__title'>{props.projects.name}</h1>
                             <a href ={props.projects.repo} className='projects__info'><FontAwesomeIcon icon="fa-brands fa-github-square" size='3x'/></a>
                         </div>
-                        <p>{props.projects.description}</p>
+                        <p className='projects__p'>{props.projects.description}</p>
                     </div>
                 </div>
                 </a>

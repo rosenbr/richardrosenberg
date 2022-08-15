@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .about__pic {
     height: 300px;
     width: 300px;
@@ -30,4 +35,13 @@
 
 .about__title {
     font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.about__brand {
+    font-family: 'Silkscreen', cursive;
+}
+
+.about__p1 {
+    font-family: 'Montserrat', sans-serif;
 }
