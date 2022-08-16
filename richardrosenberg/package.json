@@ -1,7 +1,7 @@
 {
   "name": "richardrosenberg",
   "version": "0.1.0",
-  "homepage": "https://rosenbr.github.io/richardrosenberg",
+  "homepage": "https://rosenbr.github.io/richardrosenberg/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
