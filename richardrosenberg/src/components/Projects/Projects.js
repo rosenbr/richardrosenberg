@@ -1,5 +1,8 @@
 import './Projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// TODO add pop-ups for cats to appear when hovering on projects
+// TODO try and have a diff cat for each project?
+// TODO use code from navbar 
 
 const Projects = (props) => {
 
