@@ -18,11 +18,11 @@ const About = () => {
                 </div>
                 <div className="about__links">
                     <a href="https://www.linkedin.com/in/richardrosenberg88/">
-                        <FontAwesomeIcon icon="fa-brands fa-linkedin" size='8x' />
+                        <FontAwesomeIcon icon="fa-brands fa-linkedin" size='8x' className='about__icon'/>
                     </a>
                     <br></br>
                     <a href="https://github.com/rosenbr">
-                        <FontAwesomeIcon icon="fa-brands fa-github-square" size='8x' />
+                        <FontAwesomeIcon icon="fa-brands fa-github-square" size='8x' className='about__icon'/>
                     </a>
                 </div>
             </div>

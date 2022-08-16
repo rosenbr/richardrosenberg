@@ -15,18 +15,18 @@ const NavBar = () => {
                     {menu && (
                         <div className='navbar__menu'>
                             <ul>
-                                <li className='navbar__listItem'><a href="#about__link">About</a></li>
-                                <li className='navbar__listItem'><a href="#projects__link">Projects</a></li>
-                                <li className='navbar__listItem'><a href="#skills__link">Skills</a></li>
+                                <li className='navbar__listItem' id='navbar__item'><a href="#about__link">About</a></li>
+                                <li className='navbar__listItem' id='navbar__item'><a href="#projects__link">Projects</a></li>
+                                <li className='navbar__listItem' id='navbar__item'><a href="#skills__link">Skills</a></li>
                                 {/* <li className='navbar__listItem'><a href="#contact__link">Contact</a></li> */}
                                 <li className='navbar__listItem'>
                                     <a href="https://github.com/rosenbr">
-                                    <FontAwesomeIcon icon="fa-brands fa-github-square" size='3x'/>
+                                    <FontAwesomeIcon icon="fa-brands fa-github-square" size='3x' id='navbar__item'/>
                                     </a>
                                 </li>
                                 <li className='navbar__listItem'>
                                     <a href="https://www.linkedin.com/in/richardrosenberg88/">
-                                        <FontAwesomeIcon icon="fa-brands fa-linkedin" size='3x'/>
+                                        <FontAwesomeIcon icon="fa-brands fa-linkedin" size='3x' id='navbar__item'/>
                                     </a>
                                 </li>
                             </ul>

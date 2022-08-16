@@ -7,6 +7,9 @@
     height: 300px;
     width: 300px;
     border-radius: 150px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;    
 }
 
 .about__top {
@@ -44,4 +47,10 @@
 
 .about__p1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.about__icon {
+    color: black;
 }

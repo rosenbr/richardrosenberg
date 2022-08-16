@@ -12,10 +12,11 @@
     border: 5px;
     border-radius: 10px;
     border-style: solid;
-    border-color: black;
-    box-shadow: 5px 10px #121212;
+    border-color: #05386B;
+    box-shadow: 5px 10px #05386B;
     max-width: 80%;
     max-height: 80%;
+    background-color: #F8F0E3;
 }
 
 .projects__name {
@@ -56,10 +57,12 @@
 
 .projects__info {
     margin: 2%;
+    color: black;
 }
 
 .projects__p {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 #project__title {
