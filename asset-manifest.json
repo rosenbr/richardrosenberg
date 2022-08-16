@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.12555d7d.css",
-    "main.js": "/react-gh-pages/static/js/main.c812682a.js",
-    "static/js/787.1595ffd9.chunk.js": "/react-gh-pages/static/js/787.1595ffd9.chunk.js",
-    "static/media/PP.jpg": "/react-gh-pages/static/media/PP.5f241749249298f468f9.jpg",
-    "static/media/Calculator_Screenshot.png": "/react-gh-pages/static/media/Calculator_Screenshot.a7be349877f777a991a7.png",
-    "static/media/Noods_Screenshot.jpg": "/react-gh-pages/static/media/Noods_Screenshot.ce357d1f75f1da987caf.jpg",
-    "static/media/Wayfarer_Screenshot.jpg": "/react-gh-pages/static/media/Wayfarer_Screenshot.54a2a9cf1f4018f79b1f.jpg",
-    "static/media/Pachy_Screenshot.png": "/react-gh-pages/static/media/Pachy_Screenshot.1a542bdd42dec553dc1d.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.12555d7d.css.map": "/react-gh-pages/static/css/main.12555d7d.css.map",
-    "main.c812682a.js.map": "/react-gh-pages/static/js/main.c812682a.js.map",
-    "787.1595ffd9.chunk.js.map": "/react-gh-pages/static/js/787.1595ffd9.chunk.js.map"
+    "main.css": "/richardrosenberg/static/css/main.12555d7d.css",
+    "main.js": "/richardrosenberg/static/js/main.df97ce08.js",
+    "static/js/787.1595ffd9.chunk.js": "/richardrosenberg/static/js/787.1595ffd9.chunk.js",
+    "static/media/PP.jpg": "/richardrosenberg/static/media/PP.5f241749249298f468f9.jpg",
+    "static/media/Calculator_Screenshot.png": "/richardrosenberg/static/media/Calculator_Screenshot.a7be349877f777a991a7.png",
+    "static/media/Noods_Screenshot.jpg": "/richardrosenberg/static/media/Noods_Screenshot.ce357d1f75f1da987caf.jpg",
+    "static/media/Wayfarer_Screenshot.jpg": "/richardrosenberg/static/media/Wayfarer_Screenshot.54a2a9cf1f4018f79b1f.jpg",
+    "static/media/Pachy_Screenshot.png": "/richardrosenberg/static/media/Pachy_Screenshot.1a542bdd42dec553dc1d.png",
+    "index.html": "/richardrosenberg/index.html",
+    "main.12555d7d.css.map": "/richardrosenberg/static/css/main.12555d7d.css.map",
+    "main.df97ce08.js.map": "/richardrosenberg/static/js/main.df97ce08.js.map",
+    "787.1595ffd9.chunk.js.map": "/richardrosenberg/static/js/787.1595ffd9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12555d7d.css",
-    "static/js/main.c812682a.js"
+    "static/js/main.df97ce08.js"
   ]
 }
